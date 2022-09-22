@@ -1,0 +1,7 @@
+rootProject.name = 'teteMapa'
+
+include ':app'
+
+include ':mapbox-react-native-mapbox-gl'
+project(':mapbox-react-native-mapbox-gl').projectDir = new File
+(rootProject.projectDir, '../node_modules/@mapbox/react-native-mapbox-gl/android/rctmgl')
